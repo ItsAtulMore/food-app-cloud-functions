@@ -44,6 +44,14 @@ app.get("/fetchApiPath/:clientId", (req, res) => {
       subscriptionType: "GOLD",
       subcriptionEndDate: "2023-01-27",
     },
+    {
+      clientId: "MK",
+      serverName: "Office Server",
+      serverPath: "http://103.140.27.5:4009/",
+      secretKey: "ABC1234",
+      subscriptionType: "GOLD",
+      subcriptionEndDate: "2023-01-27",
+    },
   ];
 
   data = clientsData.filter((xx) => xx.clientId === pClientId);
