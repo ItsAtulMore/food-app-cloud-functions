@@ -15,7 +15,9 @@ app.get("/fetchApiPath/:clientId", (req, res) => {
     {
       clientId: "STOMACH",
       serverName: "Office Server",
-      serverPath: "http://103.140.27.5:4021/",
+      // serverPath: "http://103.140.26.150:4021/",
+      serverPath:
+        "http://65.0.243.31:4011/",
       secretKey: "ABC1234",
       subscriptionType: "GOLD",
       subcriptionEndDate: "2023-01-27",
@@ -23,7 +25,7 @@ app.get("/fetchApiPath/:clientId", (req, res) => {
     {
       clientId: "BURFFEE",
       serverName: "Office Server",
-      serverPath: "http://103.140.27.5:4021/",
+      serverPath: "http://103.140.26.150:4021/",
       secretKey: "ABC1234",
       subscriptionType: "GOLD",
       subcriptionEndDate: "2023-01-27",
@@ -31,7 +33,7 @@ app.get("/fetchApiPath/:clientId", (req, res) => {
     {
       clientId: "ATUL",
       serverName: "Office Server",
-      serverPath: "http://103.140.27.5:4021/",
+      serverPath: "http://103.140.26.150:4021/",
       secretKey: "ABC1234",
       subscriptionType: "GOLD",
       subcriptionEndDate: "2023-01-27",
@@ -39,7 +41,7 @@ app.get("/fetchApiPath/:clientId", (req, res) => {
     {
       clientId: "HSRETAIL",
       serverName: "Office Server",
-      serverPath: "http://103.140.27.5:4002/",
+      serverPath: "http://103.140.26.150:4002/",
       secretKey: "ABC1234",
       subscriptionType: "GOLD",
       subcriptionEndDate: "2023-01-27",
@@ -47,7 +49,7 @@ app.get("/fetchApiPath/:clientId", (req, res) => {
     {
       clientId: "MK",
       serverName: "Office Server",
-      serverPath: "http://103.140.27.5:4009/",
+      serverPath: "http://103.140.26.150:4009/",
       secretKey: "ABC1234",
       subscriptionType: "GOLD",
       subcriptionEndDate: "2023-01-27",
