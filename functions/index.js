@@ -40,7 +40,8 @@ app.get("/fetchApiPath/:clientId", (req, res) => {
     {
       clientId: "HSRETAIL",
       serverName: "Office Server",
-      serverPath: "http://103.140.26.150:4002/",
+      // serverPath: "http://103.140.26.150:4002/",
+      serverPath: "http://192.168.0.164:4010/",
       secretKey: "ABC1234",
       subscriptionType: "GOLD",
       subcriptionEndDate: "2023-01-27",
@@ -54,10 +55,10 @@ app.get("/fetchApiPath/:clientId", (req, res) => {
       subcriptionEndDate: "2023-01-27",
     },
     {
-      clientId: "STOMACHDEVELOPMENT",
+      clientId: "STOMACHTEST",
       serverName: "Development Stomach",
-      // serverPath: "http://103.140.26.150:4021/",
-      serverPath: "http://65.0.243.31:4011/",
+      serverPath: "http://103.140.26.150:4021/",
+      // serverPath: "http://103.140.26.150:4011/",
       secretKey: "ABC1234",
       subscriptionType: "GOLD",
       subcriptionEndDate: "2023-01-27",
